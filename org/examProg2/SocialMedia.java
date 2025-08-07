@@ -18,6 +18,10 @@ public class SocialMedia {
     public String getUserStandar() {
         return userStandar;
     }
+    public void setUserStandar(String userStandar) {
+        this.userStandar = userStandar;
+    }
+    
     }
 
 
