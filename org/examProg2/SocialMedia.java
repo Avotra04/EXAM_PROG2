@@ -21,7 +21,10 @@ public class SocialMedia {
     public void setUserStandar(String userStandar) {
         this.userStandar = userStandar;
     }
-    
+    public String getModerator() {
+        return moderator;
+    }
+
     }
 
 
