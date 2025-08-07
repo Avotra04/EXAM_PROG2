@@ -1,6 +1,8 @@
 package org.examProg2;
 
-public class SocialMedia {
+import java.util.function.Function;
+
+public class SocialMedia extends Function {
 
     String userStandar;
     String moderator;
@@ -10,10 +12,6 @@ public class SocialMedia {
         this.userStandar = userStandar;
         this.moderator = moderator;
         this.admin = admin;
-
-        userStandar(){
-
-        }
     }
     public String getUserStandar() {
         return userStandar;
@@ -32,6 +30,11 @@ public class SocialMedia {
     }
     public void setAdmin(String admin) {
         this.admin = admin;
+    }
+
+    public static void main(String[] args) {
+
+
     }
     }
 
