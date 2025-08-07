@@ -24,6 +24,9 @@ public class SocialMedia {
     public String getModerator() {
         return moderator;
     }
+    public void setModerator(String moderator) {
+        this.moderator = moderator;
+    }
 
     }
 
