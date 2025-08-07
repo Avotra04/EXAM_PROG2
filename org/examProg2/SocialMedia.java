@@ -15,6 +15,9 @@ public class SocialMedia {
 
         }
     }
+    public String getUserStandar() {
+        return userStandar;
+    }
     }
 
 
