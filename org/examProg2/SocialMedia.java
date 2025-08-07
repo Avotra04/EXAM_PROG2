@@ -10,6 +10,11 @@ public class SocialMedia {
         this.userStandar = userStandar;
         this.moderator = moderator;
         this.admin = admin;
+
+        userStandar(){
+
+        }
+    }
     }
 
 
